@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8ff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background: #ebebeb;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.clock-header {
+    background: #f66d6d;
+    padding: 1rem;
+    border-radius: 8px;
+    position: relative;
+    top: -80px;
+}
+
+.clock-title {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+
+.clock-body {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    border-radius: 8px;
+    font-size: 2rem;
+    position: relative;
+    top: -40px;
+}
+
+.clock-hours,
+.clock-symbol,
+.clock-minutes,
+.clock-seconds,
+.clock-time {
+    padding: 1rem;
+}
+
+
+.clock-hours,
+.clock-minutes,
+.clock-seconds {
+    background: white;
+    border-radius: 50%;
+    color: #f66d6d;
+}
